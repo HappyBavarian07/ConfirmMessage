@@ -1,0 +1,18 @@
+# Showed as the Message to Confirm the Command
+ConfirmMessage: '&aClick to Confirm'
+# Showed as the Hover Message to Confirm the Command
+ConfirmMessageHoverText: '§2Click to confirm the Command'
+# Showed as the Message to Cancel the Command
+CancelMessage: '&4Click to cancel'
+# Showed as the Hover Message to Cancel the Command
+CancelMessageHoverText: '§cClick to cancel the Command'
+
+
+# INFOS
+# You can use Farbcodes
+# Please use the Standard Pattern of the Command List
+
+
+# Pattern:
+# <command>: 'message'
+clearinventory: '§cDo you really want to delete your entire inventory?'
