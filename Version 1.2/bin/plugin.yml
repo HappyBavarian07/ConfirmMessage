@@ -1,0 +1,20 @@
+name: ConfirmMessage
+main: me.happybavarian07.ConfirmMessage.ConfirmMessage
+api-version: 1.13
+version: 1.0
+description: With this plugin, a player has to confirm commands that were specified in the config with a configurable message
+commands:
+  confirmmessage:
+    usage: /confirmmessage <Commands>
+    description: With this Command you can List all Commands
+    Aliases: [cm, confirmm, cmessage]
+
+permissions:
+  ConfirmMessage.*:
+    default: op
+    children:
+      ConfirmMessage.commands.*:
+        default: op
+        children:
+          ConfirmMessage.commands.confirmmessage: true
+          ConfirmMessage.commands.confirmmessage.commands: true
